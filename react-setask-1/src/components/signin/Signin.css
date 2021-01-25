@@ -1,0 +1,189 @@
+.signInBox {
+    width: 100%;
+    overflow: hidden;
+  
+}
+
+.help {
+    display: none;
+    font-size: 90%;
+}
+
+input:focus+.help {
+    display: inline-block;
+}
+fieldset>div {
+    margin: 10px 0;
+}
+
+fieldset {
+    margin-top: 0;
+}
+
+fieldset>div:last-child {
+    margin-bottom: 0;
+}
+
+
+
+input {
+    width: 200px;
+}
+
+
+
+div>input[type="submit"] {
+    background: #ccc;
+    border: 1px solid #999;
+   width: 150px;
+}
+
+.help {
+    display: none;
+    font-size: 90%;
+    width: 50%;
+    word-break: break-all;
+    flex-direction: row;
+
+
+    
+}
+
+span{
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 20px;
+}
+
+input:focus+.help {
+    display: inline-block;
+     word-break: break-all;
+}
+
+div.submit {
+    margin-left: 100px;
+}
+
+
+.imageLogo{
+    width: 200px;
+    height: 40px;
+    background-position: center;
+}
+
+.leftBox{
+     height: 80vh;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    
+}
+
+.imageLogo {
+    margin-top: 35vh;
+    margin-left: 60vh;
+    justify-content: space-around;
+}
+
+
+
+.rightBox{
+float: right;
+ right: 0 ;
+ width: 50%;
+    height:80vh;
+ background-color: #20b26a;
+
+}
+
+.box{
+   
+    width: 90%;
+    height: 100vh;
+    float: right;
+
+}
+
+
+
+.titleBox{
+    font-size: 22px;
+    margin-top: 150px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.inputS{
+    width: 50%;
+    height: 50px;
+    font-size: 14px;
+    color: #37353f;
+    text-indent: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+.text-1{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.btn-submit{
+    width: 180px;
+    margin-left: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #58dd9b;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 970px){
+    .signInBox{
+        width: 100%;
+    }
+    .leftBox{
+        display: none;
+    }
+    .rightBox{
+       min-height: 100vh;
+       width: 100%;
+       margin-left: 65px;
+       
+      
+    }
+    .btn-submit{
+        margin-left: 30px;
+    }
+    .text-1{
+         margin-left: 30px;
+    }
+    .inputS{
+        margin-left: 10px;
+         width:90%;
+    }
+    .titleBox{
+       
+         margin-top: 80px;
+         margin-bottom: 20px;
+    }
+    .flex-container-document{
+        width:100%;
+       
+    }
+}
+
+
